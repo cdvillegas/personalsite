@@ -1,0 +1,32 @@
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #E8E8E8;
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #233140;
+  }
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+  background-color: #233140!important;
+}
+
+.bg-primary {
+  background-color: #233140!important;
+}
+
+a:active, a:focus, a:hover {
+  color: #f8f9fa;
+}
+
+a:hover {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+a {
+  color: #233140;
+}
+
